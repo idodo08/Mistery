@@ -35,15 +35,15 @@ public class NpcDialogue : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && readyToSpeak)
         {
-            if (!startDialogue)
-            {
-                player.speed = 0;
-                StartDialogue();
-            }
-            else if (dialogueText.text == dialogueNpc.dialogueIndex) ;
-            {
+            //if (!startDialogue)
+            //{
+            //    player.speed = 0;
+            //    StartDialogue();
+            //}
+            //else if (dialogueText.text == dialogueNpc.dialogueIndex);
+            //{
 
-            }
+            //}
         }
     }
 
