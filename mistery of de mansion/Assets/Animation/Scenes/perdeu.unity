@@ -328,7 +328,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 441485039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 464867990}
+        m_TargetAssemblyTypeName: CambioDeEscena, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &441485039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,6 +391,8 @@ GameObject:
   - component: {fileID: 464867988}
   - component: {fileID: 464867987}
   - component: {fileID: 464867986}
+  - component: {fileID: 464867990}
+  - component: {fileID: 464867991}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -469,6 +483,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &464867990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464867985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ce13df1fab87041b5050046b27e1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreDeEscenaDestino: Jogo
+--- !u!114 &464867991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464867985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ce13df1fab87041b5050046b27e1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreDeEscenaDestino: Menu
 --- !u!1 &733984558
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,7 +744,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1198323808}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 464867991}
+        m_TargetAssemblyTypeName: CambioDeEscena, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1198323808
 MonoBehaviour:
   m_ObjectHideFlags: 0
