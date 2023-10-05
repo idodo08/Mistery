@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Animation/Scenes/ganhou.unity
     guid: 2d237b3ba865c2349bfc3adb3b23b5da
+  - enabled: 1
+    path: Assets/Animation/Scenes/creditos.unity
+    guid: e38ab35c0990b524485e4bdbdabaf99c
   m_configObjects: {}
