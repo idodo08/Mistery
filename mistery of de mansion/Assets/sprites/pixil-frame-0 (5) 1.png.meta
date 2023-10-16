@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7867358610f4cf042ae6ff0b2c6a5d3f
+guid: 109ee6c9d402f4248ad224366938ed34
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 12, y: 44, z: 32, w: 28}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -105,22 +105,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (12)_1
+      name: pixil-frame-0 (5) 1_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 38
-        width: 19
-        height: 5
+        x: 11
+        y: 43
+        width: 57
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953d240577ee7d948a4aef7affb49911
-      internalID: 1084467461
+      spriteID: 0ea2f69d392a8994287645ae6dd8be9d
+      internalID: 1934569991
       vertices: []
       indices: 
       edges: []
@@ -129,27 +129,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixil-frame-0 (12)_12: 1938753880
-      pixil-frame-0 (12)_3: 876343456
-      pixil-frame-0 (12)_0: -359911000
-      pixil-frame-0 (12)_5: 1857121846
-      pixil-frame-0 (12)_4: 143160810
-      pixil-frame-0 (12)_6: -555394154
-      pixil-frame-0 (12)_11: -217195260
-      pixil-frame-0 (12)_7: 1540311614
-      pixil-frame-0 (12)_13: 1003286949
-      pixil-frame-0 (12)_2: 341899533
-      pixil-frame-0 (12)_9: -760318558
-      pixil-frame-0 (12)_1: 1084467461
-      pixil-frame-0 (12)_8: 2032605393
-      pixil-frame-0 (12)_10: -1533267608
+      pixil-frame-0 (5) 1_0: 1934569991
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
